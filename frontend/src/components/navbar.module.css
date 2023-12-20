@@ -1,0 +1,40 @@
+.navbar {
+    border: black 1px solid;
+    background-color: darkblue;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border: red 1px solid;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+.buttonGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logoutBtn {
+    color: white;
+    padding: 0 1rem;
+    textDecoration: none;
+    background-color: skyblue;
+    border: 1px gray solid;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.1s ease-out;
+    text-transform: uppercase;
+}
+
+.logoutBtn:hover {
+    transform: scale(0.95);
+}
+

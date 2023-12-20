@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 30%;
+    margin: 0.2rem auto;
+    border: black 1px solid;
+    padding: 0.2rem;
+}
+
+.title {
+    max-width: 50%;
+}
+
+.inputStack {
+    display: flex;
+    flex-direction: column;
+    /*max-width: 60%;*/
+}
+
+.inputField {
+    border: none;
+    border-bottom: darkgrey 1px solid;
+    margin: 0.5rem 0;
+    height: 1.5rem;
+}
+
+.inputField:focus {
+    border: none;
+    outline: none;
+    border-bottom: grey 1px solid;
+}
+
+.submitRow {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.submitBtn {
+    width: 20%;
+    align-items: flex-end;
+    padding: 0.3rem;
+    margin: 0.5rem 0;
+    background-color: skyblue;
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 0.1rem;
+    transition: all 0.1s ease-out;
+}
+
+.submitBtn:hover {
+    transform: scale(0.95);
+}
+
+.error {
+    background-color: lightsalmon;
+    margin: 0.5rem 0;
+}
